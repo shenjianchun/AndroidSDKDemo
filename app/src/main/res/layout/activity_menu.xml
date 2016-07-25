@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:padding="@dimen/spacing_double"
+                  tools:context=".ui.menu.MenuActivity">
+
+    <Button
+            android:id="@+id/btn_menu_inflate_from_xml"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MenuInflateFromXml"
+            android:onClick="onClick"/>
+
+    <Button
+            android:id="@+id/btn_menu_contextual_action_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ContextualActionMode"
+            android:onClick="onClick"/>
+
+</LinearLayout>

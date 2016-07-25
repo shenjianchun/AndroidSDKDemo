@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingStart="@dimen/spacing_huge"
+              android:paddingEnd="@dimen/spacing_huge"
+              android:paddingTop="@dimen/spacing_double"
+              android:paddingBottom="@dimen/spacing_double"
+              tools:context="com.example.android.ui.actionbarcompat.ActionbarCompatActivity">
+
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:id="@+id/btn_basic"
+            android:text="BASIC"
+            android:onClick="onClick"/>
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:id="@+id/btn_list_popup_menu"
+            android:text="List Popup Menu"
+            android:onClick="onClick"/>
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:id="@+id/btn_search_action_provider"
+            android:text="Share Action Provider"
+            android:onClick="onClick"/>
+
+</LinearLayout>

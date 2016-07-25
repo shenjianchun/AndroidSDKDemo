@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="@dimen/spacing_double">
+
+    <Button android:id="@+id/bt_view_animation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Animation"/>
+
+    <Button android:id="@+id/bt_property_animation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Property Animation"/>
+
+    <Button android:id="@+id/bt_drawable_animation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Drawable Animation"/>
+
+    <Button android:id="@+id/bt_layout_animation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Layout Animation"/>
+</LinearLayout>

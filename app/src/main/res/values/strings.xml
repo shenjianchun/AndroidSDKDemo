@@ -1,0 +1,275 @@
+<resources>
+    <string name="app_name">AndroidDemo</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- Activity Label -->
+    <string name="actionbarcompat">actionbarcompat</string>
+    <string name="actionbarcompat_basic">actionbarcompat.basic</string>
+    <string name="actionbarcompat_listpopupmenu">actionbarcompat.listpopupmenu</string>
+    <string name="actionbarcompat_shareactionprovider">actionbarcompat.shareactionprovider</string>
+    <string name="notifications">notifications</string>
+    <string name="animation">animation</string>
+    <string name="view_animation">view animation</string>
+    <string name="property_animation">property animation</string>
+
+    <!-- Menu -->
+    <string name="menu_remove">Remove</string>
+    <string name="menu_share">Share</string>
+    <string name="browser_visibility">Browser visibility</string>
+    <string name="browser_refresh">Refresh</string>
+    <string name="browser_bookmark">Bookmark</string>
+    <string name="email_visibility">Email visibility</string>
+    <string name="email_reply">Reply</string>
+    <string name="email_forward">Forward</string>
+    <string name="item_1">Item 1</string>
+    <string name="item_2">Item 2</string>
+    <string name="item_3">Item 3</string>
+    <string name="last_most_often">Last most often</string>
+    <string name="middle_most_often">Middle most often</string>
+    <string name="first_most_often">First most often</string>
+    <string name="last_least_often">Last least often</string>
+    <string name="middle_least_often">Middle least often</string>
+    <string name="first_least_often">First least often</string>
+    <string name="menu_from_xml_instructions_press_menu">Select a menu resource and press the menu key.</string>
+
+    <string name="action_bar_search">Search</string>
+    <string name="action_bar_add">Add</string>
+    <string name="action_bar_edit">Edit</string>
+    <string name="action_bar_share">Share</string>
+    <string name="action_bar_sort">Sort</string>
+    <string name="action_bar_sort_alpha">Alphabetically</string>
+    <string name="action_bar_sort_size">By size</string>
+    <string name="action_bar_share_with">Share with...</string>
+    <string name="action_bar_settings">Settings</string>
+
+    <!-- Image content description -->
+    <string name="content_open_popup">Open Popup Menu</string>
+
+
+    <!--Content-->
+    <string name="intro_message">
+        <![CDATA[
+
+
+            This sample shows you how to use ActionBarCompat to create a basic Activity which
+            displays action items. It covers inflating items from a menu resource, as well as adding
+            an item in code. Items that are not shown as action items on the Action Bar are
+            displayed in the action bar overflow.
+
+
+        ]]>
+    </string>
+
+    <string name="quote_1">Expectation is the root of all heartache - William Shakespeare</string>
+    <string name="quote_2">The true sign of intelligence is not knowledge but imagination - Albert
+        Einstein
+    </string>
+    <string name="quote_3">As for me, all I know is that I know nothing - Socrates</string>
+
+    <string name="alert_dialog_two_buttons2ultra_msg">
+        Plloaso mako nuto siwuf cakso dodtos anr koop a
+        cupy uf cak vux noaw yerw phuno. Whag schengos, uf efed, quiel
+        ba mada su otrenzr.\n\nSwipontgwook proudgs hus yag su ba dagarmidad.
+        Plasa maku noga wipont trenzsa schengos ent kaap zux comy.\n\nWipont trenz
+        kipg naar mixent phona. Cak pwico siructiun
+        ruous nust apoply tyu cak Uhex sisulutiun munityuw uw dseg\n\n
+        Plloaso mako nuto siwuf cakso dodtos anr koop a
+        cupy uf cak vux noaw yerw phuno. Whag schengos, uf efed, quiel
+        ba mada su otrenzr.\n\nSwipontgwook proudgs hus yag su ba dagarmidad.
+        Plasa maku noga wipont trenzsa schengos ent kaap zux comy.\n\nWipont trenz
+        kipg naar mixent phona. Cak pwico siructiun
+        ruous nust apoply tyu cak Uhex sisulutiun munityuw uw dseg\n\n
+        Plloaso mako nuto siwuf cakso dodtos anr koop a
+        cupy uf cak vux noaw yerw phuno. Whag schengos, uf efed, quiel
+        ba mada su otrenzr.\n\nSwipontgwook proudgs hus yag su ba dagarmidad.
+        Plasa maku noga wipont trenzsa schengos ent kaap zux comy.\n\nWipont trenz
+        kipg naar mixent phona. Cak pwico siructiun
+        ruous nust apoply tyu cak Uhex sisulutiun munityuw uw dseg\n\n
+        Plloaso mako nuto siwuf cakso dodtos anr koop a
+        cupy uf cak vux noaw yerw phuno. Whag schengos, uf efed, quiel
+        ba mada su otrenzr.\n\nSwipontgwook proudgs hus yag su ba dagarmidad.
+        Plasa maku noga wipont trenzsa schengos ent kaap zux comy.\n\nWipont trenz
+        kipg naar mixent phona. Cak pwico siructiun
+        ruous nust apoply tyu cak Uhex sisulutiun munityuw uw dseg\n\n
+        Plloaso mako nuto siwuf cakso dodtos anr koop a
+        cupy uf cak vux noaw yerw phuno. Whag schengos, uf efed, quiel
+        ba mada su otrenzr.\n\nSwipontgwook proudgs hus yag su ba dagarmidad.
+        Plasa maku noga wipont trenzsa schengos ent kaap zux comy.\n\nWipont trenz
+        kipg naar mixent phona. Cak pwico siructiun
+        ruous nust apoply tyu cak Uhex sisulutiun munityuw uw dseg\n\n
+        Plloaso mako nuto siwuf cakso dodtos anr koop a
+        cupy uf cak vux noaw yerw phuno. Whag schengos, uf efed, quiel
+        ba mada su otrenzr.\n\nSwipontgwook proudgs hus yag su ba dagarmidad.
+        Plasa maku noga wipont trenzsa schengos ent kaap zux comy.\n\nWipont trenz
+        kipg naar mixent phona. Cak pwico siructiun
+        ruous nust apoply tyu cak Uhex sisulutiun munityuw uw dseg\n\n
+    </string>
+
+    <string name="basic_notification_description">
+        Tap the button below to send a notification.\n\nThe notification\'s icon will immediately
+        appear in the notification bar. Drag the notification bar open to see the full
+        notification. Depending on which version of Android you\'re running, the full
+        notification will display an icon and two or three lines of text.
+        \n\nTap the notification to execute the notification\'s \"action,\" which is an intent
+        that we associate with the notification when it\'s created. This sample notification\'s
+        action is to send a browse intent with the url of the Notification docs on
+        developer.android.com.
+        \n\nThis sample uses the NotificationCompat API for maximum compatibility with versions
+        of Android from Froyo (Android 2.2) to the present. Try it on devices or AVDs that are
+        running different versions of Android. You\'ll see that while the presentation varies
+        slightly, the basic functionality is the same. NotificationCompat automatically takes
+        advantage of the expanded notification format in newer versions of Android, and
+        falls back gracefully to a reduced set of functionality on earlier versions.
+    </string>
+
+    <string name="visibility_metadata_description">
+        This sample demonstrates how to attach visibility metadata.\n
+        You need to have your lockscreen secured(PIN, Pattern, or Password) if you don\'t want to
+        show sensitive information on it.
+    </string>
+    <string name="visibility_public">Public</string>
+    <string name="visibility_private">Private</string>
+    <string name="visibility_secret">Secret</string>
+    <string name="show_notification">Show notification</string>
+    <string name="heads_up_notification_description">This sample demonstrates options for displaying
+        Heads-Up Notifications on Android.
+        \n\n
+        On Android L or above, you have options to display important information in front of the
+        user (Heads-Up Notifications) which
+        does not obscure the entire viewport.\n
+    </string>
+    <string name="use_heads_up_notification_where_possible">Use Heads Up Notification when
+        possible
+    </string>
+    <string name="notification_metadata_description">This sample demonstrates how to attach
+        metadata introduced in Android L, such as
+        priority data, notification category and person data.\n
+    </string>
+    <string name="label_category">Category</string>
+    <string name="label_priority">Priority</string>
+    <string name="attach_person">Attach Person</string>
+    <string name="click_to_change">Click to Change</string>
+
+
+    <string name="expanded">I\'m the expanded notification.\nCollapse me!</string>
+    <string name="intro_text">This sample demonstrates how a notification is created using the
+        <b>NotificationCompatBuilder</b>
+        with a custom content view. The layout of the notification is defined as a
+        layout resource and inflated as a
+        <b>RemoteViews</b>
+        object.
+        \n\nOn API level 16 and above, a different layout is inflated and set as
+        the<i>big content view</i>, which is used when the notification is expanded.
+        \n\n
+        <b>Use the button below to create the notification.
+            \n\nIf your device is running Jelly Bean or above, try expanding or collapsing
+            the notification to see the different layouts.
+        </b>
+    </string>
+    <string name="custom_notification">I\'m a custom notification.</string>
+    <string name="collapsed">I\'m the collapsed notification.\nCreated at: %s</string>
+    <string name="collapsed_image">A single Android robot waving. Symbolises a collapsed
+        notification.
+    </string>
+    <string name="expanded_image">Two Androids on top of each other. Symbolises an expanded
+        notification.
+    </string>
+
+
+    <string name="animation_2_text_1">Freedom</string>
+    <string name="animation_2_text_2">is nothing else but</string>
+    <string name="animation_2_text_3">a chance to be better.</string>
+    <string name="animation_2_text_4">— Albert Camus</string>
+    <string name="animation_2_instructions">Select an animation:</string>
+    <string name="animation_3_text">Interpolators</string>
+
+
+    <string name="activity_alarm_controller">App/Alarm/Alarm Controller</string>
+    <string name="alarm_controller">This demonstrates how to schedule and handle
+        one-shot and repeating alarms.</string>
+    <string name="one_shot_alarm">One Shot Alarm</string>
+    <string name="start_repeating_alarm">Start Repeating Alarm</string>
+    <string name="stop_repeating_alarm">Stop Repeating Alarm</string>
+    <string name="one_shot_scheduled">One-shot alarm will go off in 30 seconds based on
+        the real time clock.  Try changing the current time before then!</string>
+    <string name="repeating_scheduled">Repeating alarm will go off in 15 seconds and
+        every 15 seconds after based on the elapsed realtime clock</string>
+    <string name="repeating_unscheduled">Repeating alarm has been unscheduled</string>
+    <string name="alarm_service">This demonstrates how to schedule a repeating
+        alarm that will initiate a long-lived operation through a service.</string>
+    <string name="start_alarm_service">Start Alarm Service</string>
+    <string name="stop_alarm_service">Stop Alarm Service</string>
+    <string name="alarm_service_started">The alarm service has started running</string>
+    <string name="alarm_service_finished">The alarm service has finished running</string>
+    <string name="alarm_service_label">Sample Alarm Service</string>
+
+    <!-- Fragment -->
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_hide">Hide</string>
+    <string name="alert_dialog_something">Something</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+        <string name="alert_dialog_two_buttons_title">
+        Lorem ipsum dolor sit aie consectetur adipiscing\nPlloaso mako nuto
+        siwuf cakso dodtos anr koop.
+    </string>
+    <string name="initial_text">Initial text.</string>
+
+
+    <!--Image View-->
+
+    <string name="image_view_large_normal">Large image at normal size</string>
+    <string name="image_view_large_at_most">Large image scaled to at most 50x50</string>
+    <string name="image_view_large_at_most_padded">Large image scaled to at most 70x70 with padding</string>
+    <string name="image_view_large_exactly_padded">Large image scaled to exactly 70x70 with padding</string>
+    <string name="image_view_small_normal">Small image at normal size</string>
+    <string name="image_view_small_at_most">Small image scaled to at most 50x50</string>
+    <string name="image_view_small_at_most_padded">Small image scaled to at most 70x70 with padding</string>
+    <string name="image_view_small_exactly_padded">Small image scaled to exactly 70x70 with padding</string>
+
+    <string name="foreground_service_started">Service is in the foreground</string>
+    <string name="foreground_service_label">Sample Foreground Service</string>
+
+    <string name="activity_foreground_service_controller">App/Service/Foreground Service Controller</string>
+    <string name="foreground_service_controller">This demonstrates how you can
+            implement services that run in the foreground when needed.</string>
+    <string name="start_service_foreground">Start Service Foreground</string>
+    <string name="start_service_background">Start Service Background</string>
+    <string name="start_service">Start Service</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="local_service_started">Local service has started</string>
+    <string name="local_service_stopped">Local service has stopped</string>
+    <string name="local_service_label">Sample Local Service</string>
+    <string name="activity_local_service_controller">App/Service/Local Service Controller</string>
+    <string name="local_service_controller">This demonstrates how you can implement persistent services that
+        may be started and stopped as desired.</string>
+    <string name="activity_local_service_binding">App/Service/Local Service Binding</string>
+    <string name="local_service_binding">This demonstrates how you can connect with a persistent
+        service.  Notice how it automatically starts for you, and play around with the
+        interaction between this and Local Service Controller.</string>
+    <string name="bind_service">Bind Service</string>
+    <string name="unbind_service">Unbind Service</string>
+    <string name="local_service_connected">Connected to local service</string>
+    <string name="local_service_disconnected">Disconnected from local service</string>
+    <string name="remote_service_started">Remote service has started</string>
+    <string name="remote_service_stopped">Remote service has stopped</string>
+    <string name="remote_service_label">Sample Remote Service</string>
+    <string name="activity_messenger_service_binding">App/Service/Messenger Service</string>
+    <string name="messenger_service_binding">This demonstrates how you can communicate with
+        a remote service using Messenger.</string>
+    <string name="activity_remote_service_binding">App/Service/Remote Service Binding</string>
+    <string name="remote_service_binding">This demonstrates how you can connect with a persistent
+        service running in another process.  Use the kill button to see what happens when
+        the process crashes.</string>
+    <string name="kill_process">Kill Process</string>
+    <string name="remote_service_connected">Connected to remote service</string>
+    <string name="remote_service_disconnected">Disconnected from remote service</string>
+    <string name="remote_service_unbind_disconn">Unbinding due to disconnect</string>
+    <string name="remote_call_failed">Failure calling remote service</string>
+
+    <string name="activity_remote_service_controller">App/Service/Remote Service Controller</string>
+    <string name="remote_service_controller">This demonstrates how you can implement persistent services
+        running in a separate process that may be started and stopped as desired.</string>
+</resources>
+
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/browser_visibility" android:title="@string/browser_visibility"/>
+
+    <group android:id="@+id/browser">
+
+        <item android:id="@+id/refresh"
+              android:title="@string/browser_refresh"/>
+
+        <item android:id="@+id/bookmark"
+              android:title="@string/browser_bookmark"/>
+    </group>
+
+    <item android:id="@+id/email_visibility"
+          android:title="@string/email_visibility" />
+
+    <group android:id="@+id/email">
+
+        <item android:id="@+id/reply"
+              android:title="@string/email_reply" />
+
+        <item android:id="@+id/forward"
+              android:title="@string/email_forward" />
+
+    </group>
+
+</menu>

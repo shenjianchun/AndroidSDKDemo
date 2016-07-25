@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        android:padding="@dimen/spacing_double">
+
+    <Button
+            android:id="@+id/btn_send_broadcast_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="给静态注册发送自定义广播"
+            android:onClick="onClick"/>
+
+
+    <Button
+            android:id="@+id/btn_send_broadcast_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="给动态注册发送自定义广播"
+            android:onClick="onClick"/>
+
+    <Button
+            android:id="@+id/btn_send_broadcast_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="发送有序广播"
+            android:onClick="onClick"/>
+
+</LinearLayout>

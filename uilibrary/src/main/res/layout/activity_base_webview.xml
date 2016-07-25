@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+
+            android:id="@+id/appbar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp">
+
+        <ImageButton
+                android:id="@+id/ib_action_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_action_back"/>
+
+        <ImageButton
+                android:id="@+id/ib_close"
+                android:layout_toEndOf="@+id/ib_action_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:layout_marginEnd="6dp"
+                android:src="@drawable/ic_menu_close_clear_cancel"
+                android:visibility="gone"/>
+
+        <TextView
+                android:id="@+id/tv_title"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:singleLine="true"
+                android:maxWidth="240dp"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:text="加载中..."/>
+
+    </RelativeLayout>
+</android.support.design.widget.AppBarLayout>
+
+    <com.uilibrary.widget.WebViewLayout
+            android:id="@+id/webview_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    </com.uilibrary.widget.WebViewLayout>
+
+
+</LinearLayout>

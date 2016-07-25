@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- This group uses the default category. -->
+    <group android:id="@+id/most_used_items" >
+
+        <item android:id="@+id/last_most_item"
+              android:orderInCategory="10"
+              android:title="@string/last_most_often" />
+
+        <item android:id="@+id/middle_most_item"
+              android:orderInCategory="7"
+              android:title="@string/middle_most_often" />
+
+        <item android:id="@+id/first_most_item"
+              android:orderInCategory="4"
+              android:title="@string/first_most_often" />
+
+    </group>
+
+
+    <group android:id="@+id/least_used_items"
+           android:menuCategory="secondary">
+
+
+        <item android:id="@+id/last_least_item"
+              android:orderInCategory="3"
+              android:title="@string/last_least_often" />
+
+        <item android:id="@+id/middle_least_item"
+              android:orderInCategory="2"
+              android:title="@string/middle_least_often" />
+
+        <item android:id="@+id/first_least_item"
+              android:orderInCategory="0"
+              android:title="@string/first_least_often" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- cycleInterpolator 是根据正弦规则来执行循环几次-->
+<cycleInterpolator xmlns:android="http://schemas.android.com/apk/res/android"
+        android:cycles="7">
+
+</cycleInterpolator>

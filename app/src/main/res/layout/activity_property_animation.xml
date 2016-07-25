@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_double">
+
+
+        <Button android:id="@+id/bt_bouncing_balls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bouncing balls"/>
+
+        <Button android:id="@+id/bt_cloning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cloning"/>
+
+        <Button android:id="@+id/bt_layout_animation_default"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Default Layout Animation"/>
+
+        <Button android:id="@+id/bt_layout_animation_hideshow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Layout Animation Hide Show"/>
+
+        <Button android:id="@+id/bt_animation_seeking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Animation Seeking"/>
+
+        <Button android:id="@+id/bt_animation_loading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Animation Loading"/>
+    </LinearLayout>
+
+
+</ScrollView>

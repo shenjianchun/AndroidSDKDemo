@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <translate android:duration="1000"
+               android:fromYDelta="0%p"
+               android:toYDelta="-100%p" />
+
+    <!-- Float. Starting opacity offset, where 0.0 is transparent and 1.0 is opaque. -->
+    <alpha android:duration="1000"
+           android:fromAlpha="1"
+           android:toAlpha="0"/>
+
+</set>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- These are in reverse order in this resource, but the orderInCategory attribute will
+         order them for the menu (they all have the same default category). -->
+
+    <item android:title="forth item"
+            android:orderInCategory="3"/>
+
+    <item android:title="third item"
+            android:orderInCategory="2"/>
+
+    <item android:title="second item"
+            android:orderInCategory="1"/>
+
+    <item android:title="first item"
+
+            android:orderInCategory="0"/>
+
+</menu>

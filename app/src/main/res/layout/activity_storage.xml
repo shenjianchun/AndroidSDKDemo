@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="@dimen/margin_large">
+
+    <Button android:id="@+id/btn_write_internal_file"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Write Interal File"
+            android:onClick="onClick"/>
+
+    <Button android:id="@+id/btn_read_internal_file"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Read Interal File"
+            android:onClick="onClick"/>
+
+    <Button android:id="@+id/btn_write_internal_cache_file"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Write Interal Cache File"
+            android:onClick="onClick"/>
+
+    <Button android:id="@+id/btn_read_internal_cache_file"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Read Interal Cache File"
+            android:onClick="onClick"/>
+
+    <Button android:id="@+id/btn_external_app_private"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Saving files that are app-private"
+            android:onClick="onClick"/>
+
+</LinearLayout>

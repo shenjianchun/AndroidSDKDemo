@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <!-- The following four examples use a large image -->
+        <!-- 1. Non-scaled view, for reference -->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/image_view_large_normal"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sample_1"
+                android:adjustViewBounds="true"/>
+
+
+        <!-- The following four examples use scaleType -->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="set maxWidth maxHeight scaleType:center"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="70dp"
+                android:maxHeight="70dp"
+                android:src="@drawable/sample_1"
+                android:adjustViewBounds="true"/>
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="set width height scaleType:center"/>
+
+        <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/sample_1"
+                android:background="@android:color/holo_blue_bright"
+                android:scaleType="center"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="set width height scaleType:centerCrop"/>
+
+        <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/sample_1"
+                android:background="@android:color/holo_blue_bright"
+                android:scaleType="centerCrop"/>
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="set width height scaleType:centerInside"/>
+
+        <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/sample_1"
+                android:background="@android:color/holo_blue_bright"
+                android:scaleType="centerInside"/>
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="set width height scaleType:fitCenter"/>
+
+        <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/sample_1"
+                android:background="@android:color/holo_blue_bright"
+                android:scaleType="fitCenter"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="set width height scaleType:fitXY"/>
+
+        <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/sample_1"
+                android:background="@android:color/holo_blue_bright"
+                android:scaleType="fitXY"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="set width height scaleType:fitStart"/>
+
+        <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/sample_1"
+                android:background="@android:color/holo_blue_bright"
+                android:scaleType="fitStart"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="set width height scaleType:fitEnd"/>
+
+        <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/sample_1"
+                android:background="@android:color/holo_blue_bright"
+                android:scaleType="fitEnd"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="set width height scaleType:matrix"/>
+
+        <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/sample_1"
+                android:background="@android:color/holo_blue_bright"
+                android:scaleType="matrix"/>
+
+
+
+        <!-- 2. Limit to at most 50x50 -->
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dip"
+                android:text="@string/image_view_large_at_most"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sample_1"
+                android:maxHeight="50dp"
+                android:maxWidth="50dp"
+                android:adjustViewBounds="true"/>
+
+        <!-- 3. Limit to at most 70x70, with 10 pixels of padding all around -->
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dip"
+                android:text="@string/image_view_large_at_most_padded"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sample_1"
+                android:background="@android:color/holo_blue_bright"
+                android:maxWidth="70dp"
+                android:maxHeight="70dp"
+                android:padding="10dp"
+                android:adjustViewBounds="true"
+                />
+
+        <!-- 4. Limit to exactly 70x70, with 10 pixels of padding all around -->
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dip"
+                android:text="@string/image_view_large_exactly_padded"/>
+
+        <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@android:color/holo_blue_bright"
+                android:src="@drawable/sample_1"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"/>
+
+
+        <!-- Repeating the previous four examples with small image -->
+        <!-- 1. Non-scaled view, for reference -->
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dip"
+                android:text="@string/image_view_small_normal"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stat_happy"
+                android:background="@android:color/holo_blue_bright"
+                android:adjustViewBounds="true"/>
+
+        <!-- 2. Limit to at most 50x50 -->
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dip"
+                android:text="@string/image_view_small_at_most"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stat_happy"
+                android:background="@android:color/holo_blue_bright"
+                android:maxHeight="50dp"
+                android:maxWidth="50dp"
+                android:adjustViewBounds="true"/>
+
+        <!-- 3. Limit to at most 70x70, with 10 pixels of padding all around -->
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dip"
+                android:text="@string/image_view_small_at_most_padded"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stat_happy"
+                android:background="@android:color/holo_blue_bright"
+                android:padding="10dp"
+                android:maxHeight="70dp"
+                android:maxWidth="70dp"
+                android:adjustViewBounds="true"/>
+
+
+        <!-- 4. Limit to exactly 70x70, with 10 pixels of padding all around -->
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dip"
+                android:text="@string/image_view_small_exactly_padded"/>
+
+
+        <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/stat_happy"
+                android:background="@android:color/holo_blue_bright"
+                android:padding="10dp"
+                android:adjustViewBounds="true"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="@dimen/spacing_double">
+
+    <Button android:id="@+id/btn_content_browser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Content Browser"
+            android:onClick="onClick"/>
+
+    <Button android:id="@+id/btn_system_ui_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="System UI Mode"
+            android:onClick="onClick"/>
+
+</LinearLayout>
